@@ -5,7 +5,7 @@ Note: This is the tentative schedule and the syllabus of the class. This is subj
 |      Schedule     	                                               ||
 |:-----------------:	|---------------------------------------------	|
 |     Class time    	|     Tuesday and Thursday     15:05-16:20    	|
-|      Location     	|                   Reid 104                  	|
+|      Location     	|           Romney Hall 008                  	|
 
 |                  Instructor                	|
 |:------------------------------------------:	|
