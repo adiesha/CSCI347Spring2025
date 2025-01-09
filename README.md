@@ -1,0 +1,2 @@
+# CSCI347Spring2025
+CSCI-347 Data Mining
