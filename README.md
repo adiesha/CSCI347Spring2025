@@ -74,7 +74,7 @@ After any curving (I will decide whether this is applicable for this class or no
 93+: A; 90+: A-; 87+: B+; 83+: B; 80+: B-; 77+: C+; 73+: C; 70+: C-; 67+: D+; 63: D; 60: D-.
 
 ## Quizzes
-There will be short quizzes posted after each lecture or topic (sometimes you will get two quizzes per week). There are no make up opportunities for these quizzes. These quizzes are short, and you should be able to finish them under 10 minutes if you have gone through the lecture material. I will drop the lowest quiz from your overall grade. Depending on the number of lectures, we will have about 25-30 short quizzes. If you complete these quizzes right after each class, it should be very easy to get the full grade for quizzes.
+There will be short quizzes posted after each topic or week (sometimes you will get two quizzes per week). There are no make up opportunities for these quizzes. These quizzes are short, and you should be able to finish them under 10-15 minutes if you have gone through the lecture material. I will drop the lowest quiz from your overall grade. If you complete these quizzes right after each class, it should be very easy to get the full grade for quizzes.
 
 ## Assignments 
 There will be a written assignment every other week. All assignments must be completed individually and submitted D2L. Students are encouraged to ask questions about homework-related questions through Discord. 5% will be deducted for each day of delay after the due date. 
