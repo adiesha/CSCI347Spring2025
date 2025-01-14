@@ -124,7 +124,7 @@ MSU strives to create a culture of support and recognizes that your mental healt
 ## Tentative course schedule
 
 | Lecture # 	| Week 	|    Date    	|                                            Lecture Topic                                           	|           Homework/project/Test Due dates           	|
-|:---------:	|:----:	|:----------:	|:--------------------------------------------------------------------------------------------------:	|:---------------------------------------------------:	|
+|:---------:	|:----:	|:-------------:|:--------------------------------------------------------------------------------------------------:	|:---------------------------------------------------:	|
 |     1     	|   1  	| Jan-14-Tue 	| Course orientation,   expectations. Material covered and tools needed. Introduction to Data Mining 	|                       Quizzes                       	|
 |     2     	|   1  	| Jan-16-Thu 	|                                     Stats review + Data formats                                    	|                                                     	|
 |     3     	|   2  	| Jan-21-Tue 	|                                                                                                    	|                     Assignment                      	|
