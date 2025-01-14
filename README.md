@@ -146,8 +146,8 @@ MSU strives to create a culture of support and recognizes that your mental healt
 |           	|  10  	| Mar-18-Tue 	|                                            Spring break                                            	|                                                     	|
 |           	|  10  	| Mar-20-Thu 	|                                            Spring break                                            	|                                                     	|
 |     19    	|  11  	| Mar-25-Tue 	|                                           Clustering cont                                          	|                  Assignment/Quizzes                 	|
-|     20    	|  11  	| Mar-27-Thu 	|                                             Naïve bayes                                            	|                                                     	|
-|     21    	|  12  	| Apr-01-Tue 	|                                  Introduction to   itemset mining                                  	|                  Assignment/Quizzes                 	|
+|     20    	|  11  	| Mar-27-Thu 	|                                                                                         	|                                                     	|
+|     21    	|  12  	| Apr-01-Tue 	|                                  Introduction to itemset mining                                  	|                  Assignment/Quizzes                 	|
 |     22    	|  12  	| Apr-03-Thu 	|                           Midterm - tentative (this date   might change)                           	|                                                     	|
 |     23    	|  13  	| Apr-08-Tue 	|                                                                                                    	|                  Assignment/Quizzes                 	|
 |     24    	|  13  	| Apr-10-Thu 	|                                          Anomaly detection                                         	|                                                     	|
