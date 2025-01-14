@@ -84,7 +84,8 @@ There will be 3 mini-projects. For each of the project you must write a report a
 
 ## Exam
 There will be one in-class mid-term exam in this course. I will announce the exact exam dates later. If you need accommodations, please let me know before the exam.
-Collaboration
+
+## Collaboration
 Collaboration is encouraged. However, all submitted work must be individual work (except the group project). If you got help from others, please acknowledge your collaborators at the beginning of the submission.
 For any group projects, every team member is expected to contribute substantially to the submission. However, the distribution of the work is up to the group. 
 For assignments, You may
