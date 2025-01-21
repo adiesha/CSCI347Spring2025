@@ -126,8 +126,8 @@ MSU strives to create a culture of support and recognizes that your mental healt
 
 | Lecture # 	| Week 	|    Date    	|                                            Lecture Topic                                           	|           Homework/project/Test Due dates           	|
 |:---------:	|:----:	|:-------------:|:--------------------------------------------------------------------------------------------------:	|:---------------------------------------------------:	|
-|     1     	|   1  	| Jan-14-Tue 	| Course orientation,   expectations. Material covered and tools needed. Introduction to Data Mining 	|                       Quizzes                       	|
-|     2     	|   1  	| Jan-16-Thu 	|                                     Stats review + Data formats                                    	|                                                     	|
+|     1     	|   1  	| Jan-14-Tue 	| [Course orientation,   expectations. Material covered and tools needed. Introduction to Data Mining](https://github.com/adiesha/CSCI347Spring2025/blob/master/Notes/Lec01-Tue-14/Overview%20and%20course%20orientation.pptx) 	|                       Quizzes                       	|
+|     2     	|   1  	| Jan-16-Thu 	|                                     [Stats review + Data formats](https://github.com/adiesha/CSCI347Spring2025/blob/master/Notes/Lec02-Thu-16/Stat%20review%20and%20Data%20Formats.pdf)                                    	|                                                     	|
 |     3     	|   2  	| Jan-21-Tue 	|                                                                                                    	|                     Assignment                      	|
 |     4     	|   2  	| Jan-23-Thu 	|                                simple visualization and   sampling                                 	|                                                     	|
 |     5     	|   3  	| Jan-28-Tue 	|                                                                                                    	|                       Quizzes                       	|
