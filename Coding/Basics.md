@@ -109,13 +109,16 @@ but today we will just do some basics.
 
 First let us try to do this by looping.. Try this by yourself!!! 
 
-
+```
 column_0 = []
 for row in D:
     column_0.append(row[0])
+```
 
 or 
+```
 column_0 = [row[0] for row in D]
+```
 
 Let's use numpy to access the first column.
 
