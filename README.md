@@ -2,6 +2,46 @@
 CSCI-347 Data Mining
 Note: This is the tentative schedule and the syllabus of the class. This is subject to change during the semester. Such changes will be notified to the students during the class.
 
+## Tentative course schedule
+
+| Lecture # 	| Week 	|    Date    	|                                            Lecture Topic                                           	|           Homework/project/Test Due dates           	|
+|:---------:	|:----:	|:-------------:|:--------------------------------------------------------------------------------------------------:	|:---------------------------------------------------:	|
+|     1     	|   1  	| Jan-14-Tue 	| [Course orientation,   expectations. Material covered and tools needed. Introduction to Data Mining](https://github.com/adiesha/CSCI347Spring2025/blob/master/Notes/Lec01-Tue-14/Overview%20and%20course%20orientation.pptx) 	|                       Quizzes                       	|
+|     2     	|   1  	| Jan-16-Thu 	|                                     [Stats review + Data formats](https://github.com/adiesha/CSCI347Spring2025/blob/master/Notes/Lec02-Thu-16/Stat%20review%20and%20Data%20Formats.pdf)                                    	|                                                     	|
+|     3     	|   2  	| Jan-21-Tue 	|         [Linear Algebra review and distance measurements](https://github.com/adiesha/CSCI347Spring2025/blob/master/Notes/Lec03-Tue-21/LinearAlgebraAndDistanceMeasurements.pptx)                                                                                           	|                     Assignment                      	|
+|     4     	|   2  	| Jan-23-Thu 	|                                [More On Distance Measures And Similarity Measures](https://github.com/adiesha/CSCI347Spring2025/blob/master/Notes/Lec04-Thu-23/MoreOnDistanceMeasuresAndSimilarityMeasures.pptx), [Basic python Coding for Data Mining](https://github.com/adiesha/CSCI347Spring2025/blob/master/Coding/Basics.md)                                	|                                                     	|
+|     5     	|   3  	| Jan-28-Tue 	|                                                                                                    	|                       Quizzes                       	|
+|     6     	|   3  	| Jan-30-Thu 	|                                    graph data and cleaning data                                    	|                                                     	|
+|     7     	|   4  	| Feb-04-Tue 	|                                                                                                    	|                      Assignment                     	|
+|     8     	|   4  	| Feb-06-Thu 	|                                    properties of real world data                                   	|                                                     	|
+|     9     	|   5  	| Feb-11-Tue 	|                                                                                                    	|                 Project   1/Quizzes                 	|
+|     10    	|   5  	| Feb-13-Thu 	|                                                                                                    	|                                                     	|
+|     11    	|   6  	| Feb-18-Tue 	|                                      Dimensionality  reduction                                     	|                  Assignment/Quizzes                 	|
+|     12    	|   6  	| Feb-20-Thu 	|                                                                                                    	|                                                     	|
+|     13    	|   7  	| Feb-25-Tue 	|                                                 PCA                                                	|                       Quizzes                       	|
+|     14    	|   7  	| Feb-27-Thu 	|                                                                                                    	|                                                     	|
+|     15    	|   8  	| Mar-04-Tue 	|                                    introduction to   clustering                                    	|                 Project   2/Quizzes                 	|
+|     16    	|   8  	| Mar-06-Thu 	|                                               k-means                                              	|                                                     	|
+|     17    	|   9  	| Mar-11-Tue 	|                                               DBSCAN                                               	|                  Assignment/Quizzes                 	|
+|     18    	|   9  	| Mar-13-Thu 	|                                                                                                    	|                                                     	|
+|           	|  10  	| Mar-18-Tue 	|                                            Spring break                                            	|                                                     	|
+|           	|  10  	| Mar-20-Thu 	|                                            Spring break                                            	|                                                     	|
+|     19    	|  11  	| Mar-25-Tue 	|                                           Clustering cont                                          	|                  Assignment/Quizzes                 	|
+|     20    	|  11  	| Mar-27-Thu 	|                                                                                         	|                                                     	|
+|     21    	|  12  	| Apr-01-Tue 	|                                  Introduction to itemset mining                                  	|                  Assignment/Quizzes                 	|
+|     22    	|  12  	| Apr-03-Thu 	|                           Midterm - tentative (this date   might change)                           	|                                                     	|
+|     23    	|  13  	| Apr-08-Tue 	|                                                                                                    	|                  Assignment/Quizzes                 	|
+|     24    	|  13  	| Apr-10-Thu 	|                                          Anomaly detection                                         	|                                                     	|
+|     25    	|  14  	| Apr-15-Tue 	|                                                                                                    	|                 Project   3/Quizzes                 	|
+|     26    	|  14  	| Apr-17-Thu 	|                                        Intro to text mining                                        	|                                                     	|
+|     27    	|  15  	| Apr-22-Tue 	|                                                                                                    	|                      Assignment                     	|
+|     28    	|  15  	| Apr-24-Thu 	|                   Introduction to data mining   problems and recommender systems                   	|                                                     	|
+|     29    	|  16  	| Apr-29-Tue 	|                                                                                                    	|                                                     	|
+|     30    	|  16  	| May-01-Thu 	|                                                                                                    	|                                                     	|
+|     31    	|  17  	| May-06-Tue 	|                                                                                                    	| Final Project:   Reports, source code, presentation 	|
+|     32    	|  17  	| May-08-Thu 	|                                           End of semester                                          	|                                                     	|
+
+
 |      Schedule     	                                               ||
 |:-----------------:	|---------------------------------------------	|
 |     Class time    	|     Tuesday and Thursday     15:05-16:20    	|
@@ -121,43 +161,3 @@ MSU strives to create a culture of support and recognizes that your mental healt
 - WellTrack wellness app: https://montana.welltrack.com
 - Mental Health Screening: https://screening.mentalhealthscreening.org/montanastateuniv
 - Let’s Talk drop-in services: https://www.montana.edu/counseling/letstalk.html
-
-## Tentative course schedule
-
-| Lecture # 	| Week 	|    Date    	|                                            Lecture Topic                                           	|           Homework/project/Test Due dates           	|
-|:---------:	|:----:	|:-------------:|:--------------------------------------------------------------------------------------------------:	|:---------------------------------------------------:	|
-|     1     	|   1  	| Jan-14-Tue 	| [Course orientation,   expectations. Material covered and tools needed. Introduction to Data Mining](https://github.com/adiesha/CSCI347Spring2025/blob/master/Notes/Lec01-Tue-14/Overview%20and%20course%20orientation.pptx) 	|                       Quizzes                       	|
-|     2     	|   1  	| Jan-16-Thu 	|                                     [Stats review + Data formats](https://github.com/adiesha/CSCI347Spring2025/blob/master/Notes/Lec02-Thu-16/Stat%20review%20and%20Data%20Formats.pdf)                                    	|                                                     	|
-|     3     	|   2  	| Jan-21-Tue 	|                                                                                                    	|                     Assignment                      	|
-|     4     	|   2  	| Jan-23-Thu 	|                                More On Distance Measures And Similarity Measures, [Basic python Coding for Data Mining](https://github.com/adiesha/CSCI347Spring2025/blob/master/Coding/Basics.md)                                	|                                                     	|
-|     5     	|   3  	| Jan-28-Tue 	|                                                                                                    	|                       Quizzes                       	|
-|     6     	|   3  	| Jan-30-Thu 	|                                    graph data and cleaning data                                    	|                                                     	|
-|     7     	|   4  	| Feb-04-Tue 	|                                                                                                    	|                      Assignment                     	|
-|     8     	|   4  	| Feb-06-Thu 	|                                    properties of real world data                                   	|                                                     	|
-|     9     	|   5  	| Feb-11-Tue 	|                                                                                                    	|                 Project   1/Quizzes                 	|
-|     10    	|   5  	| Feb-13-Thu 	|                                                                                                    	|                                                     	|
-|     11    	|   6  	| Feb-18-Tue 	|                                      Dimensionality  reduction                                     	|                  Assignment/Quizzes                 	|
-|     12    	|   6  	| Feb-20-Thu 	|                                                                                                    	|                                                     	|
-|     13    	|   7  	| Feb-25-Tue 	|                                                 PCA                                                	|                       Quizzes                       	|
-|     14    	|   7  	| Feb-27-Thu 	|                                                                                                    	|                                                     	|
-|     15    	|   8  	| Mar-04-Tue 	|                                    introduction to   clustering                                    	|                 Project   2/Quizzes                 	|
-|     16    	|   8  	| Mar-06-Thu 	|                                               k-means                                              	|                                                     	|
-|     17    	|   9  	| Mar-11-Tue 	|                                               DBSCAN                                               	|                  Assignment/Quizzes                 	|
-|     18    	|   9  	| Mar-13-Thu 	|                                                                                                    	|                                                     	|
-|           	|  10  	| Mar-18-Tue 	|                                            Spring break                                            	|                                                     	|
-|           	|  10  	| Mar-20-Thu 	|                                            Spring break                                            	|                                                     	|
-|     19    	|  11  	| Mar-25-Tue 	|                                           Clustering cont                                          	|                  Assignment/Quizzes                 	|
-|     20    	|  11  	| Mar-27-Thu 	|                                                                                         	|                                                     	|
-|     21    	|  12  	| Apr-01-Tue 	|                                  Introduction to itemset mining                                  	|                  Assignment/Quizzes                 	|
-|     22    	|  12  	| Apr-03-Thu 	|                           Midterm - tentative (this date   might change)                           	|                                                     	|
-|     23    	|  13  	| Apr-08-Tue 	|                                                                                                    	|                  Assignment/Quizzes                 	|
-|     24    	|  13  	| Apr-10-Thu 	|                                          Anomaly detection                                         	|                                                     	|
-|     25    	|  14  	| Apr-15-Tue 	|                                                                                                    	|                 Project   3/Quizzes                 	|
-|     26    	|  14  	| Apr-17-Thu 	|                                        Intro to text mining                                        	|                                                     	|
-|     27    	|  15  	| Apr-22-Tue 	|                                                                                                    	|                      Assignment                     	|
-|     28    	|  15  	| Apr-24-Thu 	|                   Introduction to data mining   problems and recommender systems                   	|                                                     	|
-|     29    	|  16  	| Apr-29-Tue 	|                                                                                                    	|                                                     	|
-|     30    	|  16  	| May-01-Thu 	|                                                                                                    	|                                                     	|
-|     31    	|  17  	| May-06-Tue 	|                                                                                                    	| Final Project:   Reports, source code, presentation 	|
-|     32    	|  17  	| May-08-Thu 	|                                           End of semester                                          	|                                                     	|
-
