@@ -1400,3 +1400,1036 @@ print(df)
     2   green    0  255    0
     3  purple  127    0  255
     
+
+Outputting a DataFrame into a text file
+
+A pandas DataFrame can be saved to a CSV file using the .to_csv() method. The arguments include the filename with path and index – where index = True implies writing the DataFrame’s index.
+
+
+```python
+df.to_csv("test_data_out.csv", index=False)
+```
+
+Outputting a DataFrame into a text file
+
+We can use to_csv function again, the onlyu difference is the output file format is .txt, and you need to specify the separator using the **sep** arguement.
+
+
+```python
+df.to_csv("test_data_out_text.txt", header=df.columns, index=None, sep = ' ')
+```
+
+The **.describe()** method prints the summary statistics of all numeric columns, such as count, mean, standard deviation, range, and quartiles of numeric columns.
+
+
+```python
+df.describe()
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>R</th>
+      <th>G</th>
+      <th>B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>4.000000</td>
+      <td>4.00</td>
+      <td>4.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>95.500000</td>
+      <td>63.75</td>
+      <td>127.500000</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>122.028685</td>
+      <td>127.50</td>
+      <td>147.224319</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.000000</td>
+      <td>0.00</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>0.000000</td>
+      <td>0.00</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>63.500000</td>
+      <td>0.00</td>
+      <td>127.500000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>159.000000</td>
+      <td>63.75</td>
+      <td>255.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>255.000000</td>
+      <td>255.00</td>
+      <td>255.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+D.describe()
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PassengerId</th>
+      <th>Survived</th>
+      <th>Pclass</th>
+      <th>Age</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+      <th>Fare</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>714.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>446.000000</td>
+      <td>0.383838</td>
+      <td>2.308642</td>
+      <td>29.699118</td>
+      <td>0.523008</td>
+      <td>0.381594</td>
+      <td>32.204208</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>257.353842</td>
+      <td>0.486592</td>
+      <td>0.836071</td>
+      <td>14.526497</td>
+      <td>1.102743</td>
+      <td>0.806057</td>
+      <td>49.693429</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.420000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>223.500000</td>
+      <td>0.000000</td>
+      <td>2.000000</td>
+      <td>20.125000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>7.910400</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>446.000000</td>
+      <td>0.000000</td>
+      <td>3.000000</td>
+      <td>28.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>14.454200</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>668.500000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>38.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>31.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>891.000000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>80.000000</td>
+      <td>8.000000</td>
+      <td>6.000000</td>
+      <td>512.329200</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+
+```
+
+In case you need to change the percentiles:
+
+
+```python
+D.describe(percentiles=[0.3, 0.5, 0.7])
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PassengerId</th>
+      <th>Survived</th>
+      <th>Pclass</th>
+      <th>Age</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+      <th>Fare</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>714.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>446.000000</td>
+      <td>0.383838</td>
+      <td>2.308642</td>
+      <td>29.699118</td>
+      <td>0.523008</td>
+      <td>0.381594</td>
+      <td>32.204208</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>257.353842</td>
+      <td>0.486592</td>
+      <td>0.836071</td>
+      <td>14.526497</td>
+      <td>1.102743</td>
+      <td>0.806057</td>
+      <td>49.693429</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.420000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>30%</th>
+      <td>268.000000</td>
+      <td>0.000000</td>
+      <td>2.000000</td>
+      <td>22.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>8.050000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>446.000000</td>
+      <td>0.000000</td>
+      <td>3.000000</td>
+      <td>28.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>14.454200</td>
+    </tr>
+    <tr>
+      <th>70%</th>
+      <td>624.000000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>36.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>27.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>891.000000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>80.000000</td>
+      <td>8.000000</td>
+      <td>6.000000</td>
+      <td>512.329200</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+If you need to isolate specific data type in your summary, you can use the **include** arguement.
+
+
+```python
+D.describe(include=[int])
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PassengerId</th>
+      <th>Survived</th>
+      <th>Pclass</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>446.000000</td>
+      <td>0.383838</td>
+      <td>2.308642</td>
+      <td>0.523008</td>
+      <td>0.381594</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>257.353842</td>
+      <td>0.486592</td>
+      <td>0.836071</td>
+      <td>1.102743</td>
+      <td>0.806057</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>223.500000</td>
+      <td>0.000000</td>
+      <td>2.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>446.000000</td>
+      <td>0.000000</td>
+      <td>3.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>668.500000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>891.000000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>8.000000</td>
+      <td>6.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+Similarly, you might want to **exclude** certain data types using exclude argument.
+
+
+```python
+D.describe(exclude=[int, float])
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>Ticket</th>
+      <th>Cabin</th>
+      <th>Embarked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>891</td>
+      <td>891</td>
+      <td>891</td>
+      <td>204</td>
+      <td>889</td>
+    </tr>
+    <tr>
+      <th>unique</th>
+      <td>891</td>
+      <td>2</td>
+      <td>681</td>
+      <td>147</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>top</th>
+      <td>Dooley, Mr. Patrick</td>
+      <td>male</td>
+      <td>347082</td>
+      <td>G6</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>freq</th>
+      <td>1</td>
+      <td>577</td>
+      <td>7</td>
+      <td>4</td>
+      <td>644</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+D.describe(exclude=[int, float]).T
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+      <th>unique</th>
+      <th>top</th>
+      <th>freq</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Name</th>
+      <td>891</td>
+      <td>891</td>
+      <td>Dooley, Mr. Patrick</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Sex</th>
+      <td>891</td>
+      <td>2</td>
+      <td>male</td>
+      <td>577</td>
+    </tr>
+    <tr>
+      <th>Ticket</th>
+      <td>891</td>
+      <td>681</td>
+      <td>347082</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Cabin</th>
+      <td>204</td>
+      <td>147</td>
+      <td>G6</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Embarked</th>
+      <td>889</td>
+      <td>3</td>
+      <td>S</td>
+      <td>644</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+You can use the function **info** to take a look at the data types, missing values, and shape of the dataframe.
+
+
+```python
+D.info(show_counts=True, memory_usage=True, verbose=True)
+
+```
+
+    <class 'pandas.core.frame.DataFrame'>
+    RangeIndex: 891 entries, 0 to 890
+    Data columns (total 12 columns):
+     #   Column       Non-Null Count  Dtype  
+    ---  ------       --------------  -----  
+     0   PassengerId  891 non-null    int64  
+     1   Survived     891 non-null    int64  
+     2   Pclass       891 non-null    int64  
+     3   Name         891 non-null    object 
+     4   Sex          891 non-null    object 
+     5   Age          714 non-null    float64
+     6   SibSp        891 non-null    int64  
+     7   Parch        891 non-null    int64  
+     8   Ticket       891 non-null    object 
+     9   Fare         891 non-null    float64
+     10  Cabin        204 non-null    object 
+     11  Embarked     889 non-null    object 
+    dtypes: float64(2), int64(5), object(5)
+    memory usage: 83.7+ KB
+    
+
+Number of rows and columns of the dataframe can be identified using the **.shape** attribute.
+
+
+```python
+D.shape
+```
+
+
+
+
+    (891, 12)
+
+
+
+
+```python
+type(D.shape)
+```
+
+
+
+
+    tuple
+
+
+
+
+```python
+print(D.shape[0])
+print(D.shape[1])
+```
+
+    891
+    12
+    
+
+If you need to get the information about the column names, you can do this easily by:
+
+
+```python
+D.columns
+```
+
+
+
+
+    Index(['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp',
+           'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked'],
+          dtype='object')
+
+
+
+
+```python
+D['Cabin']
+```
+
+
+
+
+    0       NaN
+    1       C85
+    2       NaN
+    3      C123
+    4       NaN
+           ... 
+    886     NaN
+    887     B42
+    888     NaN
+    889    C148
+    890     NaN
+    Name: Cabin, Length: 891, dtype: object
+
+
+
+
+```python
+titanic_copy = D.copy()
+titanic_copy
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PassengerId</th>
+      <th>Survived</th>
+      <th>Pclass</th>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>Age</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+      <th>Ticket</th>
+      <th>Fare</th>
+      <th>Cabin</th>
+      <th>Embarked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Braund, Mr. Owen Harris</td>
+      <td>male</td>
+      <td>22.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>A/5 21171</td>
+      <td>7.2500</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Cumings, Mrs. John Bradley (Florence Briggs Th...</td>
+      <td>female</td>
+      <td>38.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>PC 17599</td>
+      <td>71.2833</td>
+      <td>C85</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>1</td>
+      <td>3</td>
+      <td>Heikkinen, Miss Laina</td>
+      <td>female</td>
+      <td>26.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>STON/O2. 3101282</td>
+      <td>7.9250</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Futrelle, Mrs. Jacques Heath (Lily May Peel)</td>
+      <td>female</td>
+      <td>35.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>113803</td>
+      <td>53.1000</td>
+      <td>C123</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Allen, Mr. William Henry</td>
+      <td>male</td>
+      <td>35.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>373450</td>
+      <td>8.0500</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>886</th>
+      <td>887</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Montvila, Rev. Juozas</td>
+      <td>male</td>
+      <td>27.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>211536</td>
+      <td>13.0000</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>887</th>
+      <td>888</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Graham, Miss Margaret Edith</td>
+      <td>female</td>
+      <td>19.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>112053</td>
+      <td>30.0000</td>
+      <td>B42</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>888</th>
+      <td>889</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Johnston, Miss Catherine Helen "Carrie"</td>
+      <td>female</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>2</td>
+      <td>W./C. 6607</td>
+      <td>23.4500</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>889</th>
+      <td>890</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Behr, Mr. Karl Howell</td>
+      <td>male</td>
+      <td>26.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>111369</td>
+      <td>30.0000</td>
+      <td>C148</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <th>890</th>
+      <td>891</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Dooley, Mr. Patrick</td>
+      <td>male</td>
+      <td>32.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>370376</td>
+      <td>7.7500</td>
+      <td>NaN</td>
+      <td>Q</td>
+    </tr>
+  </tbody>
+</table>
+<p>891 rows × 12 columns</p>
+</div>
+
+
+
+
+```python
+cabin_copy.head(7).isnull()
+```
+
+
+
+
+    0     True
+    1    False
+    2     True
+    3    False
+    4     True
+    5     True
+    6    False
+    Name: Cabin, dtype: bool
+
+
+
+
+```python
+titanic_copy.isnull().sum()
+```
+
+
+
+
+    PassengerId      0
+    Survived         0
+    Pclass           0
+    Name             0
+    Sex              0
+    Age            177
+    SibSp            0
+    Parch            0
+    Ticket           0
+    Fare             0
+    Cabin          687
+    Embarked         2
+    dtype: int64
+
+
+
+
+```python
+titanic_copy.isnull().sum()
+```
+
+
+
+
+    PassengerId      0
+    Survived         0
+    Pclass           0
+    Name             0
+    Sex              0
+    Age            177
+    SibSp            0
+    Parch            0
+    Ticket           0
+    Fare             0
+    Cabin          687
+    Embarked         2
+    dtype: int64
+
+
+
+You can do a double sum to get the total number of nulls in the dataset.
+
+
+```python
+titanic_copy.isnull().sum().sum()
+```
+
+
+
+
+    np.int64(866)
+
+
+
+
+```python
+cabin_copy
+```
+
+
+
+
+    0      None
+    1      None
+    2      None
+    3      None
+    4      None
+           ... 
+    886     NaN
+    887     B42
+    888     NaN
+    889    C148
+    890     NaN
+    Name: Cabin, Length: 891, dtype: object
+
+
