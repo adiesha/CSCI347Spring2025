@@ -56,10 +56,13 @@ Note: This is the tentative schedule and the syllabus of the class. This is subj
 
 |     Teaching Assistant    	|
 |:-------------------------:	|
-|          Name: TBD        	|
-|         Email: TBD        	|
-|      Office Hours: TBD    	|
-|      Office Hours: TBD    	|
+|          Name: Gerard Shu Fuhnwi        	|
+|         Email: gerard.shufuhnwi@student.montana.edu        	|
+|      Office Hours: Tuesdays, 12pm - 1pm    	|
+|      Office Hours: Fridays, 1:10pm - 2:10pm     	|
+ 
+
+
 
 ## Prerequisites:
 Students are expected to have taken the following courses, namely STAT 216Q or STAT 332 or EGEN 350, and CSCI 232. Basic working experience in python is expected. An introductory linear algebra course is recommended as it would enhance the students' understanding of the fundamental methods and algorithms, data mining techniques, tools, and packages. 
