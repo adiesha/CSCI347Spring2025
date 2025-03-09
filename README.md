@@ -52,7 +52,10 @@ Note: This is the tentative schedule and the syllabus of the class. This is subj
 |           Adiesha Liyana Ralalage          	|
 |     Email: a.liyanaralalage@montana.edu    	|
 |             Office: Barnard 349            	|
-|              Office Hours: TBD             	|
+|              Office Hours: Monday 12:15pm - 2:15 pm  : Friday  12:15pm - 1:15pm           	|
+
+
+
 
 |     Teaching Assistant    	|
 |:-------------------------:	|
