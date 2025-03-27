@@ -29,12 +29,12 @@ Note: This is the tentative schedule and the syllabus of the class. This is subj
 |     19    	|  11  	| Mar-25-Tue 	|                                           Clustering cont                                          	|                  Assignment/Quizzes                 	|
 |     20    	|  11  	| Mar-27-Thu 	|                                                                                         	|                                                     	|
 |     21    	|  12  	| Apr-01-Tue 	|                                  Introduction to itemset mining                                  	|                  Assignment/Quizzes                 	|
-|     22    	|  12  	| Apr-03-Thu 	|                           Midterm - tentative (this date   might change)                           	|                                                     	|
+|     22    	|  12  	| Apr-03-Thu 	|                                                     	|                                               |
 |     23    	|  13  	| Apr-08-Tue 	|                                                                                                    	|                  Assignment/Quizzes                 	|
 |     24    	|  13  	| Apr-10-Thu 	|                                          Anomaly detection                                         	|                                                     	|
 |     25    	|  14  	| Apr-15-Tue 	|                                                                                                    	|                 Project   3/Quizzes                 	|
 |     26    	|  14  	| Apr-17-Thu 	|                                        Intro to text mining                                        	|                                                     	|
-|     27    	|  15  	| Apr-22-Tue 	|                                                                                                    	|                      Assignment                     	|
+|     27    	|  15  	| Apr-22-Tue 	|                                     Midterm - tentative                                              	|                      Assignment                     	|
 |     28    	|  15  	| Apr-24-Thu 	|                   Introduction to data mining   problems and recommender systems                   	|                                                     	|
 |     29    	|  16  	| Apr-29-Tue 	|                                                                                                    	|                                                     	|
 |     30    	|  16  	| May-01-Thu 	|                                                                                                    	|                                                     	|
